@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DGA Help & Support Center - Get assistance with our services">
+    <title>Help & Support - DGA Help Center</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html" data-i18n="logoText">DGA Help Center</a>
+            </div>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                ☰
+            </button>
+            
+            <nav aria-label="Main navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html" data-i18n="helpSupport">Help & Support</a></li>
+                    <li><a href="contact.html" data-i18n="contactUs">Contact Us</a></li>
+                    <li><a href="faq.html" data-i18n="faq">FAQ</a></li>
+                </ul>
+            </nav>
+            
+            <div class="language-toggle" role="group" aria-label="Language selection">
+                <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
+                <button class="lang-btn" data-lang="ar" aria-label="Switch to Arabic">AR</button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero">
+                <h1 data-i18n="helpTitle">Help & Support</h1>
+                <p data-i18n="helpSubtitle">We're here to help you with whatever you need</p>
+            </section>
+            
+            <!-- Support Cards -->
+            <section class="cards-grid">
+                <!-- Contact Support Card -->
+                <article class="card">
+                    <div class="card-icon" aria-hidden="true">📧</div>
+                    <h3 data-i18n="contactCard">Contact Support</h3>
+                    <p data-i18n="contactCardDesc">Get in touch with our support team for assistance</p>
+                    <a href="contact.html" class="card-link">
+                        <span data-i18n="learnMore">Learn More</span>
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </article>
+                
+                <!-- FAQ Card -->
+                <article class="card">
+                    <div class="card-icon" aria-hidden="true">❓</div>
+                    <h3 data-i18n="faqCard">Browse FAQ</h3>
+                    <p data-i18n="faqCardDesc">Find quick answers to common questions</p>
+                    <a href="faq.html" class="card-link">
+                        <span data-i18n="learnMore">Learn More</span>
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </article>
+                
+                <!-- User Guides Card -->
+                <article class="card">
+                    <div class="card-icon" aria-hidden="true">📚</div>
+                    <h3 data-i18n="guidesCard">User Guides</h3>
+                    <p data-i18n="guidesCardDesc">Step-by-step guides to help you get started</p>
+                    <a href="#" class="card-link">
+                        <span data-i18n="learnMore">Learn More</span>
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </article>
+                
+                <!-- Email Support Card -->
+                <article class="card">
+                    <div class="card-icon" aria-hidden="true">✉️</div>
+                    <h3 data-i18n="emailCard">Email Support</h3>
+                    <p data-i18n="emailCardDesc">Send us an email at support@dga.gov.ae</p>
+                    <a href="mailto:support@dga.gov.ae" class="card-link">
+                        <span data-i18n="learnMore">Learn More</span>
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </article>
+                
+                <!-- Phone Support Card -->
+                <article class="card">
+                    <div class="card-icon" aria-hidden="true">📞</div>
+                    <h3 data-i18n="phoneCard">Phone Support</h3>
+                    <p data-i18n="phoneCardDesc">Call us at +971-4-123-4567</p>
+                    <a href="tel:+97141234567" class="card-link">
+                        <span data-i18n="learnMore">Learn More</span>
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </article>
+                
+                <!-- Live Chat Card -->
+                <article class="card">
+                    <div class="card-icon" aria-hidden="true">💬</div>
+                    <h3 data-i18n="liveCard">Live Chat</h3>
+                    <p data-i18n="liveCardDesc">Chat with our support team in real-time</p>
+                    <a href="#" class="card-link" onclick="alert('Live chat feature coming soon!'); return false;">
+                        <span data-i18n="learnMore">Learn More</span>
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </article>
+            </section>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- About Section -->
+                <div class="footer-section">
+                    <h3 data-i18n="aboutUs">About Us</h3>
+                    <p data-i18n="aboutDesc">DGA Help & Support Center provides comprehensive assistance for all your needs. We are committed to delivering excellent service.</p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3 data-i18n="quickLinks">Quick Links</h3>
+                    <a href="index.html" data-i18n="helpSupport">Help & Support</a>
+                    <a href="contact.html" data-i18n="contactUs">Contact Us</a>
+                    <a href="faq.html" data-i18n="faq">FAQ</a>
+                    <a href="#" data-i18n="services">Services</a>
+                    <a href="#" data-i18n="privacy">Privacy Policy</a>
+                    <a href="#" data-i18n="terms">Terms of Service</a>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h3 data-i18n="contactInfo">Contact Info</h3>
+                    <p>
+                        <strong data-i18n="email">Email:</strong><br>
+                        <a href="mailto:support@dga.gov.ae">support@dga.gov.ae</a>
+                    </p>
+                    <p>
+                        <strong data-i18n="phone">Phone:</strong><br>
+                        <a href="tel:+97141234567">+971-4-123-4567</a>
+                    </p>
+                    <p>
+                        <strong data-i18n="address">Address:</strong><br>
+                        <span data-i18n="address">Dubai, United Arab Emirates</span>
+                    </p>
+                </div>
+                
+                <!-- Social Media -->
+                <div class="footer-section">
+                    <h3 data-i18n="followUs">Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://twitter.com/DubaiDED" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter">
+                            <span aria-hidden="true">🐦</span>
+                        </a>
+                        <a href="https://www.facebook.com/DubaiDED" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+                            <span aria-hidden="true">📘</span>
+                        </a>
+                        <a href="https://www.instagram.com/DubaiDED" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+                            <span aria-hidden="true">📷</span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/dubaieconomy" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                            <span aria-hidden="true">💼</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-i18n="copyright">© 2024 DGA Help Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
