@@ -1,0 +1,178 @@
+{
+  "en": {
+    "categories": [
+      {
+        "id": "general",
+        "title": "General Questions",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is the DGA Help & Support Center?",
+            "answer": "The DGA Help & Support Center is your comprehensive resource for getting assistance with our services. We provide multiple channels including FAQ, contact forms, and live support to help you resolve any issues or questions you may have."
+          },
+          {
+            "id": "q2",
+            "question": "How can I contact support?",
+            "answer": "You can contact our support team through multiple channels: via the Contact Us form, by email at support@dga.gov.ae, or by phone at +971-4-123-4567. Our support team is available 24/7 to assist you."
+          },
+          {
+            "id": "q3",
+            "question": "What are your operating hours?",
+            "answer": "Our digital services are available 24/7. Our customer support team is available Sunday to Thursday from 8:00 AM to 6:00 PM GST."
+          }
+        ]
+      },
+      {
+        "id": "account",
+        "title": "Account Management",
+        "questions": [
+          {
+            "id": "q4",
+            "question": "How do I create an account?",
+            "answer": "To create an account, click on the 'Sign Up' button on the top right corner of the page. Fill in your details including email, phone number, and create a secure password. You'll receive a verification email to activate your account."
+          },
+          {
+            "id": "q5",
+            "question": "I forgot my password. How can I reset it?",
+            "answer": "Click on the 'Forgot Password' link on the login page. Enter your registered email address, and we'll send you instructions to reset your password. Follow the link in the email to create a new password."
+          },
+          {
+            "id": "q6",
+            "question": "How can I update my profile information?",
+            "answer": "Log in to your account and navigate to 'My Profile' section. There you can update your personal information, contact details, and preferences. Remember to save your changes before exiting."
+          }
+        ]
+      },
+      {
+        "id": "services",
+        "title": "Services & Features",
+        "questions": [
+          {
+            "id": "q7",
+            "question": "What services do you offer?",
+            "answer": "We offer a wide range of digital government services including document processing, license applications, permit requests, and information services. Visit our Services page for a complete list of available services."
+          },
+          {
+            "id": "q8",
+            "question": "How do I apply for a service?",
+            "answer": "Browse our services catalog, select the service you need, and follow the step-by-step application process. You'll need to provide required documents and information. Most applications can be completed online."
+          },
+          {
+            "id": "q9",
+            "question": "How long does processing take?",
+            "answer": "Processing times vary depending on the service. Standard services typically take 3-5 business days. Urgent services are available for an additional fee. You can track your application status online anytime."
+          }
+        ]
+      },
+      {
+        "id": "technical",
+        "title": "Technical Support",
+        "questions": [
+          {
+            "id": "q10",
+            "question": "What browsers are supported?",
+            "answer": "Our platform supports the latest versions of Chrome, Firefox, Safari, and Edge. For the best experience, we recommend keeping your browser up to date. Mobile browsers are also fully supported."
+          },
+          {
+            "id": "q11",
+            "question": "I'm experiencing technical issues. What should I do?",
+            "answer": "First, try clearing your browser cache and cookies, then restart your browser. If the issue persists, contact our technical support team through the Contact Us form with details about the problem you're experiencing."
+          },
+          {
+            "id": "q12",
+            "question": "Is the website mobile-friendly?",
+            "answer": "Yes! Our website is fully responsive and optimized for all devices including smartphones and tablets. You can access all features and services from any device with an internet connection."
+          }
+        ]
+      }
+    ]
+  },
+  "ar": {
+    "categories": [
+      {
+        "id": "general",
+        "title": "أسئلة عامة",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "ما هو مركز المساعدة والدعم DGA؟",
+            "answer": "مركز المساعدة والدعم DGA هو مصدرك الشامل للحصول على المساعدة في خدماتنا. نوفر قنوات متعددة بما في ذلك الأسئلة الشائعة ونماذج الاتصال والدعم المباشر لمساعدتك في حل أي مشكلات أو أسئلة قد تكون لديك."
+          },
+          {
+            "id": "q2",
+            "question": "كيف يمكنني الاتصال بالدعم؟",
+            "answer": "يمكنك الاتصال بفريق الدعم لدينا من خلال قنوات متعددة: عبر نموذج اتصل بنا، أو بالبريد الإلكتروني على support@dga.gov.ae، أو عبر الهاتف على +971-4-123-4567. فريق الدعم لدينا متاح على مدار الساعة طوال أيام الأسبوع لمساعدتك."
+          },
+          {
+            "id": "q3",
+            "question": "ما هي ساعات العمل؟",
+            "answer": "خدماتنا الرقمية متاحة على مدار الساعة طوال أيام الأسبوع. فريق دعم العملاء لدينا متاح من الأحد إلى الخميس من الساعة 8:00 صباحًا إلى 6:00 مساءً بتوقيت الخليج."
+          }
+        ]
+      },
+      {
+        "id": "account",
+        "title": "إدارة الحساب",
+        "questions": [
+          {
+            "id": "q4",
+            "question": "كيف أقوم بإنشاء حساب؟",
+            "answer": "لإنشاء حساب، انقر على زر 'التسجيل' في الزاوية اليمنى العليا من الصفحة. املأ تفاصيلك بما في ذلك البريد الإلكتروني ورقم الهاتف وأنشئ كلمة مرور آمنة. ستتلقى بريدًا إلكترونيًا للتحقق لتفعيل حسابك."
+          },
+          {
+            "id": "q5",
+            "question": "نسيت كلمة المرور. كيف يمكنني إعادة تعيينها؟",
+            "answer": "انقر على رابط 'نسيت كلمة المرور' في صفحة تسجيل الدخول. أدخل عنوان بريدك الإلكتروني المسجل، وسنرسل لك تعليمات لإعادة تعيين كلمة المرور الخاصة بك. اتبع الرابط في البريد الإلكتروني لإنشاء كلمة مرور جديدة."
+          },
+          {
+            "id": "q6",
+            "question": "كيف يمكنني تحديث معلومات ملفي الشخصي؟",
+            "answer": "سجل الدخول إلى حسابك وانتقل إلى قسم 'ملفي الشخصي'. هناك يمكنك تحديث معلوماتك الشخصية وتفاصيل الاتصال والتفضيلات. تذكر حفظ التغييرات قبل الخروج."
+          }
+        ]
+      },
+      {
+        "id": "services",
+        "title": "الخدمات والميزات",
+        "questions": [
+          {
+            "id": "q7",
+            "question": "ما هي الخدمات التي تقدمونها؟",
+            "answer": "نقدم مجموعة واسعة من الخدمات الحكومية الرقمية بما في ذلك معالجة المستندات وتطبيقات الترخيص وطلبات التصاريح وخدمات المعلومات. قم بزيارة صفحة الخدمات للحصول على قائمة كاملة بالخدمات المتاحة."
+          },
+          {
+            "id": "q8",
+            "question": "كيف أتقدم بطلب للحصول على خدمة؟",
+            "answer": "تصفح كتالوج خدماتنا، واختر الخدمة التي تحتاجها، واتبع عملية التقديم خطوة بخطوة. ستحتاج إلى تقديم المستندات والمعلومات المطلوبة. يمكن إكمال معظم الطلبات عبر الإنترنت."
+          },
+          {
+            "id": "q9",
+            "question": "كم من الوقت تستغرق المعالجة؟",
+            "answer": "تختلف أوقات المعالجة حسب الخدمة. عادةً ما تستغرق الخدمات القياسية من 3 إلى 5 أيام عمل. تتوفر الخدمات العاجلة برسوم إضافية. يمكنك تتبع حالة طلبك عبر الإنترنت في أي وقت."
+          }
+        ]
+      },
+      {
+        "id": "technical",
+        "title": "الدعم الفني",
+        "questions": [
+          {
+            "id": "q10",
+            "question": "ما هي المتصفحات المدعومة؟",
+            "answer": "تدعم منصتنا أحدث إصدارات Chrome و Firefox و Safari و Edge. للحصول على أفضل تجربة، نوصي بإبقاء متصفحك محدثًا. متصفحات الهاتف المحمول مدعومة أيضًا بالكامل."
+          },
+          {
+            "id": "q11",
+            "question": "أواجه مشاكل فنية. ماذا يجب أن أفعل؟",
+            "answer": "أولاً، حاول مسح ذاكرة التخزين المؤقت وملفات تعريف الارتباط في متصفحك، ثم أعد تشغيل المتصفح. إذا استمرت المشكلة، اتصل بفريق الدعم الفني لدينا من خلال نموذج اتصل بنا مع تفاصيل حول المشكلة التي تواجهها."
+          },
+          {
+            "id": "q12",
+            "question": "هل الموقع متوافق مع الأجهزة المحمولة؟",
+            "answer": "نعم! موقعنا متجاوب بالكامل ومحسّن لجميع الأجهزة بما في ذلك الهواتف الذكية والأجهزة اللوحية. يمكنك الوصول إلى جميع الميزات والخدمات من أي جهاز متصل بالإنترنت."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Dependencies (if added in future)
+node_modules/
+vendor/
+
+# Build output (if added in future)
+dist/
+build/
+*.min.js
+*.min.css
+
+# Environment files
+.env
+.env.local
+
+# Test coverage
+coverage/
+
+# Misc
+*.cache
