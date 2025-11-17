@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DGA Help & Support Center</title>
+    <meta name="description" content="DGA Help and Support Center - Get help with FAQs and contact us">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-headset"></i>
+                    <h1 data-en="DGA Support Center" data-ar="مركز دعم DGA">DGA Support Center</h1>
+                </div>
+                <div class="header-actions">
+                    <button class="lang-toggle" id="langToggle" aria-label="Toggle Language">
+                        <i class="fas fa-globe"></i>
+                        <span id="currentLang">EN</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title" data-en="How can we help you?" data-ar="كيف يمكننا مساعدتك؟">How can we help you?</h2>
+            <p class="hero-subtitle" data-en="Search our FAQ or contact us directly" data-ar="ابحث في الأسئلة الشائعة أو اتصل بنا مباشرة">Search our FAQ or contact us directly</p>
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Search for help..." data-placeholder-en="Search for help..." data-placeholder-ar="ابحث عن المساعدة...">
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Quick Links -->
+            <section class="quick-links">
+                <h3 class="section-title" data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h3>
+                <div class="links-grid">
+                    <div class="link-card">
+                        <i class="fas fa-book"></i>
+                        <h4 data-en="Documentation" data-ar="الوثائق">Documentation</h4>
+                        <p data-en="Browse our guides" data-ar="تصفح أدلتنا">Browse our guides</p>
+                    </div>
+                    <div class="link-card">
+                        <i class="fas fa-video"></i>
+                        <h4 data-en="Tutorials" data-ar="الدروس">Tutorials</h4>
+                        <p data-en="Watch video tutorials" data-ar="شاهد دروس الفيديو">Watch video tutorials</p>
+                    </div>
+                    <div class="link-card">
+                        <i class="fas fa-comments"></i>
+                        <h4 data-en="Community" data-ar="المجتمع">Community</h4>
+                        <p data-en="Join discussions" data-ar="انضم إلى المناقشات">Join discussions</p>
+                    </div>
+                    <div class="link-card">
+                        <i class="fas fa-life-ring"></i>
+                        <h4 data-en="Support" data-ar="الدعم">Support</h4>
+                        <p data-en="Get direct help" data-ar="احصل على مساعدة مباشرة">Get direct help</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="faq-section" id="faqSection">
+                <h3 class="section-title" data-en="Frequently Asked Questions" data-ar="الأسئلة الشائعة">Frequently Asked Questions</h3>
+                
+                <div class="faq-categories">
+                    <button class="category-btn active" data-category="all" data-en="All" data-ar="الكل">All</button>
+                    <button class="category-btn" data-category="account" data-en="Account" data-ar="الحساب">Account</button>
+                    <button class="category-btn" data-category="billing" data-en="Billing" data-ar="الفواتير">Billing</button>
+                    <button class="category-btn" data-category="technical" data-en="Technical" data-ar="تقني">Technical</button>
+                </div>
+
+                <div class="faq-list" id="faqList">
+                    <!-- Account FAQs -->
+                    <div class="faq-item" data-category="account">
+                        <button class="faq-question">
+                            <span data-en="How do I create an account?" data-ar="كيف أقوم بإنشاء حساب؟">How do I create an account?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p data-en="To create an account, click on the 'Sign Up' button in the top right corner and follow the registration process. You'll need a valid email address and a secure password." data-ar="لإنشاء حساب، انقر على زر 'التسجيل' في الزاوية العلوية اليمنى واتبع عملية التسجيل. ستحتاج إلى عنوان بريد إلكتروني صالح وكلمة مرور آمنة.">To create an account, click on the 'Sign Up' button in the top right corner and follow the registration process. You'll need a valid email address and a secure password.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="account">
+                        <button class="faq-question">
+                            <span data-en="How do I reset my password?" data-ar="كيف أقوم بإعادة تعيين كلمة المرور؟">How do I reset my password?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p data-en="Click on 'Forgot Password' on the login page. Enter your email address and we'll send you a password reset link. Follow the instructions in the email to set a new password." data-ar="انقر على 'نسيت كلمة المرور' في صفحة تسجيل الدخول. أدخل عنوان بريدك الإلكتروني وسنرسل لك رابط إعادة تعيين كلمة المرور. اتبع التعليمات في البريد الإلكتروني لتعيين كلمة مرور جديدة.">Click on 'Forgot Password' on the login page. Enter your email address and we'll send you a password reset link. Follow the instructions in the email to set a new password.</p>
+                        </div>
+                    </div>
+
+                    <!-- Billing FAQs -->
+                    <div class="faq-item" data-category="billing">
+                        <button class="faq-question">
+                            <span data-en="What payment methods do you accept?" data-ar="ما هي طرق الدفع التي تقبلونها؟">What payment methods do you accept?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p data-en="We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and bank transfers for enterprise customers." data-ar="نقبل جميع بطاقات الائتمان الرئيسية (فيزا، ماستركارد، أمريكان إكسبريس)، PayPal، والتحويلات البنكية لعملاء المؤسسات.">We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and bank transfers for enterprise customers.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="billing">
+                        <button class="faq-question">
+                            <span data-en="How can I update my billing information?" data-ar="كيف يمكنني تحديث معلومات الفواتير الخاصة بي؟">How can I update my billing information?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p data-en="Go to your account settings, navigate to the 'Billing' section, and click 'Update Payment Method'. You can add, remove, or modify your payment information there." data-ar="انتقل إلى إعدادات حسابك، انتقل إلى قسم 'الفواتير'، وانقر على 'تحديث طريقة الدفع'. يمكنك إضافة أو إزالة أو تعديل معلومات الدفع الخاصة بك هناك.">Go to your account settings, navigate to the 'Billing' section, and click 'Update Payment Method'. You can add, remove, or modify your payment information there.</p>
+                        </div>
+                    </div>
+
+                    <!-- Technical FAQs -->
+                    <div class="faq-item" data-category="technical">
+                        <button class="faq-question">
+                            <span data-en="What browsers are supported?" data-ar="ما هي المتصفحات المدعومة؟">What browsers are supported?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p data-en="We support the latest versions of Chrome, Firefox, Safari, and Edge. For the best experience, please keep your browser updated." data-ar="ندعم أحدث إصدارات Chrome و Firefox و Safari و Edge. للحصول على أفضل تجربة، يرجى تحديث متصفحك.">We support the latest versions of Chrome, Firefox, Safari, and Edge. For the best experience, please keep your browser updated.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="technical">
+                        <button class="faq-question">
+                            <span data-en="I'm experiencing technical issues, what should I do?" data-ar="أواجه مشاكل تقنية، ماذا يجب أن أفعل؟">I'm experiencing technical issues, what should I do?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p data-en="First, try clearing your browser cache and cookies. If the issue persists, contact our support team using the form below with details about the problem." data-ar="أولاً، حاول مسح ذاكرة التخزين المؤقت وملفات تعريف الارتباط للمتصفح. إذا استمرت المشكلة، اتصل بفريق الدعم لدينا باستخدام النموذج أدناه مع تفاصيل حول المشكلة.">First, try clearing your browser cache and cookies. If the issue persists, contact our support team using the form below with details about the problem.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Form Section -->
+            <section class="contact-section" id="contactSection">
+                <h3 class="section-title" data-en="Contact Us" data-ar="اتصل بنا">Contact Us</h3>
+                <p class="section-subtitle" data-en="Can't find what you're looking for? Send us a message and we'll get back to you as soon as possible." data-ar="لا يمكنك العثور على ما تبحث عنه؟ أرسل لنا رسالة وسنعاود الاتصال بك في أقرب وقت ممكن.">Can't find what you're looking for? Send us a message and we'll get back to you as soon as possible.</p>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name" data-en="Name *" data-ar="الاسم *">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-en="Email *" data-ar="البريد الإلكتروني *">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" data-en="Subject *" data-ar="الموضوع *">Subject *</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <span class="error-message" id="subjectError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="category" data-en="Category *" data-ar="الفئة *">Category *</label>
+                        <select id="category" name="category" required>
+                            <option value="" data-en="Select a category" data-ar="اختر فئة">Select a category</option>
+                            <option value="account" data-en="Account Issues" data-ar="مشاكل الحساب">Account Issues</option>
+                            <option value="billing" data-en="Billing Questions" data-ar="أسئلة الفواتير">Billing Questions</option>
+                            <option value="technical" data-en="Technical Support" data-ar="الدعم الفني">Technical Support</option>
+                            <option value="feedback" data-en="Feedback" data-ar="ملاحظات">Feedback</option>
+                            <option value="other" data-en="Other" data-ar="أخرى">Other</option>
+                        </select>
+                        <span class="error-message" id="categoryError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" data-en="Message *" data-ar="الرسالة *">Message *</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn" id="submitBtn">
+                        <span data-en="Send Message" data-ar="إرسال رسالة">Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                
+                <div class="success-message" id="successMessage">
+                    <i class="fas fa-check-circle"></i>
+                    <h4 data-en="Message Sent Successfully!" data-ar="تم إرسال الرسالة بنجاح!">Message Sent Successfully!</h4>
+                    <p data-en="We've received your message and will get back to you within 24 hours." data-ar="لقد تلقينا رسالتك وسنعاود الاتصال بك في غضون 24 ساعة.">We've received your message and will get back to you within 24 hours.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 data-en="About DGA" data-ar="حول DGA">About DGA</h4>
+                    <p data-en="Your trusted support center for all your needs." data-ar="مركز الدعم الموثوق به لجميع احتياجاتك.">Your trusted support center for all your needs.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h4>
+                    <ul>
+                        <li><a href="#faqSection" data-en="FAQs" data-ar="الأسئلة الشائعة">FAQs</a></li>
+                        <li><a href="#contactSection" data-en="Contact" data-ar="اتصل بنا">Contact</a></li>
+                        <li><a href="#" data-en="Privacy Policy" data-ar="سياسة الخصوصية">Privacy Policy</a></li>
+                        <li><a href="#" data-en="Terms of Service" data-ar="شروط الخدمة">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Contact Info" data-ar="معلومات الاتصال">Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> support@dga.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-en="© 2025 DGA Support Center. All rights reserved." data-ar="© 2025 مركز دعم DGA. جميع الحقوق محفوظة.">© 2025 DGA Support Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
